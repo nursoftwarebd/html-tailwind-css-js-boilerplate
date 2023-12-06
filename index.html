@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftbank - Gifts</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            '50': '#eef5ff',
+                            '100': '#d8e9ff',
+                            '200': '#bad8ff',
+                            '300': '#8bc1ff',
+                            '400': '#549eff',
+                            '500': '#2c77ff',
+                            '600': '#1d5bfb',
+                            '700': '#010D37',
+                        },
+                        'secondary-100': '#E7E9FF',
+                        dark: '#010F30',
+                        lightgray: '#ECEDEF',
+                        darkgray: '#667085',
+                        gray: '#D0D5DD',
+                        'Gray-600': '#373A37',
+                    },
+                    screens: {
+                        'xss': '375px',
+                        'xs': '425px',
+                        '3xl': '1600px',
+                    },
+
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        /* =============================
+            write here is @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+        ================================*/
+        .header{
+            @apply text-center text-primary-600;
+        }
+    </style>
+</head>
+
+<body class="text-dark">
+    <header>
+        <nav></nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="header">Hello world</h2>
+        </section>
+    </main>
+
+    <footer>
+        <section></section>
+    </footer>
+
+    <!-- write custom js  -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

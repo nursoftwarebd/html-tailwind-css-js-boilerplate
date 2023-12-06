@@ -1,0 +1,20 @@
+/* write here styles for your projects */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-primary-base: #1d5bfb;
+    --clr-secondary-100: #E7E9FF;
+    --clr-dark: #010F30;
+    --clr-gradient-1: #0C78F6 4.92%;
+    --clr-gradient-2: #0CF6E8 88.44%;
+}
+
+.gradient_bg {
+    background: linear-gradient(142deg, var(--clr-gradient-1), var(--clr-gradient-2));
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    filter: blur(50px);
+    width: 324.612px;
+    height: 105.233px;
+    transform: rotate(136.098deg);
+}
